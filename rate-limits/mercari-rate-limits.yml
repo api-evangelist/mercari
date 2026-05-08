@@ -7,26 +7,25 @@ created: '2026-05-08'
 modified: '2026-05-08'
 reconciled: false
 tags:
-- E-Commerce
 - Marketplace
-- C2C
-- Mobile
 - Resale
+- P2P
+- Ecommerce
 - Rate Limiting
 - Quotas
 - Throttling
-description: Placeholder rate-limit artifact for Mercari. Replace with real limits once researched.
-notes: Initial scaffold — limits have not yet been reconciled.
+description: Mercari does not publicly publish API rate limits. Partner-specific quotas under contract.
+notes: No public API exposed.
 sources:
 - https://www.mercari.com/
 responseCodes:
   throttled: 429
 limits:
-- name: Default
-  scope: account
-  metric: varies
-  limit: see provider documentation
-  notes: Pending reconciliation.
+- name: Default Partner
+  scope: partner
+  metric: requests
+  limit: not publicly documented
+  notes: Per partner agreement.
 policies:
 - name: Backoff Strategy
   description: Clients should implement exponential backoff with jitter and honor any Retry-After header.
