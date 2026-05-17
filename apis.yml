@@ -1,7 +1,7 @@
 aid: mercari
 url: https://raw.githubusercontent.com/api-evangelist/mercari/refs/heads/main/apis.yml
 name: Mercari
-x-type: company
+kind: company
 description: Mercari is a peer-to-peer marketplace for new and used goods, operating in Japan and the
   United States. Mercari does not maintain a public developer API; integration is restricted to approved
   partners (e.g., shipping carriers, payment partners) under direct agreements.
