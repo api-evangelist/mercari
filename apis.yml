@@ -7,36 +7,40 @@ description: Mercari is a peer-to-peer marketplace for new and used goods, opera
   partners (e.g., shipping carriers, payment partners) under direct agreements.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Marketplace
-- Resale
-- P2P
-- Ecommerce
+  - Marketplace
+  - Resale
+  - P2P
+  - Ecommerce
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-- aid: mercari:partner-api
-  name: Mercari Partner API
-  description: Partner-only API access for shipping, payment, and integration partners. Not self-serve;
-    access granted under partnership agreements.
-  humanURL: https://about.mercari.com/en/business/
-  tags:
-  - Partner
-  - Restricted
-  properties:
-  - type: Partnerships
-    url: https://about.mercari.com/en/business/
+  - aid: mercari:partner-api
+    name: Mercari Partner API
+    description: Partner-only API access for shipping, payment, and integration partners. Not self-serve;
+      access granted under partnership agreements.
+    humanURL: https://about.mercari.com/en/business/
+    tags:
+    - Partner
+    - Restricted
+    properties:
+    - type: Partnerships
+      url: https://about.mercari.com/en/business/
 common:
-- type: Website
-  url: https://www.mercari.com/
-- type: Developer
-  url: https://about.mercari.com/en/business/
-- type: Plans
-  url: plans/mercari-plans-pricing.yml
-- type: RateLimits
-  url: rate-limits/mercari-rate-limits.yml
-- type: FinOps
-  url: finops/mercari-finops.yml
+  - type: GitHubOrganization
+    url: https://github.com/mercari
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/mercari-inc-
+  - type: Website
+    url: https://www.mercari.com/
+  - type: Developer
+    url: https://about.mercari.com/en/business/
+  - type: Plans
+    url: plans/mercari-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/mercari-rate-limits.yml
+  - type: FinOps
+    url: finops/mercari-finops.yml
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
