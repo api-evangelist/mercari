@@ -1,0 +1,21 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.mercari.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 25 10:41:53 2026 GMT
+  hsts: null
+- host: about.mercari.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  7 17:53:33 2026 GMT
+  hsts: false
+domains:
+- domain: mercari.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

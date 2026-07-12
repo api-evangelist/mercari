@@ -27,6 +27,8 @@ apis:
     - type: Partnerships
       url: https://about.mercari.com/en/business/
 common:
+  - type: DomainSecurity
+    url: security/mercari-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/mercari
   - type: LinkedIn
@@ -41,6 +43,8 @@ common:
     url: rate-limits/mercari-rate-limits.yml
   - type: FinOps
     url: finops/mercari-finops.yml
+  - url: https://about.mercari.com/en/press/news/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
