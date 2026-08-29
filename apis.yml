@@ -5,6 +5,17 @@ kind: company
 description: Mercari is a peer-to-peer marketplace for new and used goods, operating in Japan and the
   United States. Mercari does not maintain a public developer API; integration is restricted to approved
   partners (e.g., shipping carriers, payment partners) under direct agreements.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
