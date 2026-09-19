@@ -51,6 +51,9 @@ apis:
     access granted under partnership agreements.
   humanURL: https://about.mercari.com/en/business/
   tags:
+  - Partners
+  - Restricted
+  tags_raw:
   - Partner
   - Restricted
   properties:
